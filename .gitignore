@@ -170,6 +170,8 @@ cython_debug/
 ## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
 node_modules
 
+node_modules/*
+
 # Book build output
 _book
 
