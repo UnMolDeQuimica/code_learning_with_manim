@@ -11,5 +11,11 @@
   },
   "dependencies": {
     "gulp-cli": "^2.3.0"
-  }
+  },
+  "name": "code_learning_with_manim",
+  "description": "Este documento pretende ser una breve introducción al lenguaje de programación `Python` y a la programación en general utilizando la librería ManimCE.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
