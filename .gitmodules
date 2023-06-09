@@ -1,0 +1,3 @@
+[submodule ".publish"]
+    path = .publish
+    url = git://github.com/UnMolDeQuimica/code_learning_with_manim.git
