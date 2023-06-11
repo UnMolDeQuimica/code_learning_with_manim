@@ -6,7 +6,9 @@ Git es un sistema de control de versiones creado por Linus Torvalds en 2005.
 
 De acuerdo. Otra vez: ¿Qué es git?
 
-*Git es un sistema de control de versiones distribuido de naturaleza décentralisée que impregna una amalgama sinérgica de teoría de grafos dirigidos acíclicos, funciones hash criptográficas y principios de conjuntos diferenciales. Este ingenioso artefacto matemático, concebido para registrar la evolución histórica de un proyecto, utiliza el poder del grafo para estructurar y visualizar las relaciones jerárquicas entre los commits, mientras que las funciones hash confieren integridad y unicidad a los identificadores de los objetos. Mediante la utilización de conjuntos de cambios, Git administra eficazmente las diferencias entre los estados de los archivos, plasmando así la esencia misma de la transformación diferencial. En suma, Git, con su elegante orquestación de conceptos matemáticos, se erige como una herramienta imprescindible para el control y la coordinación de las versiones, permitiendo a los artífices del software entrelazar la trama histórica de sus creaciones con maestría y solvencia.*
+> *Git es un sistema de control de versiones distribuido de naturaleza décentralisée que impregna una amalgama sinérgica de teoría de grafos dirigidos acíclicos, funciones hash criptográficas y principios de conjuntos diferenciales. Este ingenioso artefacto matemático, concebido para registrar la evolución histórica de un proyecto, utiliza el poder del grafo para estructurar y visualizar las relaciones jerárquicas entre los commits, mientras que las funciones hash confieren integridad y unicidad a los identificadores de los objetos. Mediante la utilización de conjuntos de cambios, Git administra eficazmente las diferencias entre los estados de los archivos, plasmando así la esencia misma de la transformación diferencial. En suma, Git, con su elegante orquestación de conceptos matemáticos, se erige como una herramienta imprescindible para el control y la coordinación de las versiones, permitiendo a los artífices del software entrelazar la trama histórica de sus creaciones con maestría y solvencia.*
+>
+> <cite>Chat GPT</cite>
 
 Venga va, vamos a una pregunta más fácil:
 
@@ -54,7 +56,7 @@ git config --global user.email "unmoldequimica@gmail.com"
 ```
 
 
-## Creando archivos en git: `git add` y `git commit`
+### Creando archivos en git: `git add` y `git commit`
 
 Ahora que tenemos nuestro repositorio inicializado y nuestras credenciales indicadas, podemos crear un archivo nuevo llamado `receta.txt`. En windows podemos abrir la carpeta y crear un archivo de texto nuevo con el bloc de notas. En Ubuntu/Linux y MacOS podemos hacer lo mismo o podemos usar el comando `touch`:
 
@@ -113,7 +115,7 @@ Veámos que hemos escrito: `git commit` indica a git que comando queremos usar, 
 
 > **Danger** Enserio: No te olvides de usar `-m`. Vim es un poder que debería mantenerse lejos de los principiantes por su salud mental. 
 
-## Creando ramas: `git branch`
+### Creando ramas: `git branch`
 
 Una de las enormes ventajas de git es la posibilidad de trabajar en paralelo con otras personas sin interferir mucho los unos con los otros. Para ello, existe el comando `git branch` que nos permite crear ramas de nuestro repositorio que luego podremos integrar de nuevo con la rama principal. Si te fijas, en el mensaje anterior nos ha indicado la palabra `master`.`master` es la rama que se crea por defecto en git inicialmente. Si hacer commit es como sacer una foto de tus archivos, una rama es hacer una copia de tus archivos para que les hagas nuevas fotos y poder decidir más adelante si esas son las fotos con las que te quedas finalmente o no. Por su lado, tus compañeros pueden hacer sus propias copias con sus propias fotos y así nadie se molesta con nadie. 
 
@@ -151,7 +153,7 @@ nada para hacer commit, el árbol de trabajo está limpio
 Con esto ya hemos hecho los cambios en nuestra rama _`first_ingredients`_.
 
 
-## Juntando ramas: `git merge`
+### Juntando ramas: `git merge`
 
 Hagámos una experimento rápido: Vayámos a nuestra rama master y abramos nuestro archivo `receta.txt` a ver que nos encontramos:
 
@@ -177,7 +179,7 @@ Fast-forward
 Si abres de nuevo el archivo, verás que están todos los cambios que hemos hecho. Sé que si estás tu solo, este flujo parece de lo más innecesario pero créeme, si trabajas con otras personas o estás en un proyecto complejo en el que quieres probar grandes cambios sin romper tu código, es muy útil. 
 
 
-## Volviendo a cambios anteriores: `git log` y `git reverse`
+### Volviendo a cambios anteriores: `git log` y `git reverse`
 
 Vamos a liarla un poco. Vamos a borrar todo lo que hay en el archivo y vamos a hacer un commit: 
 
@@ -228,9 +230,9 @@ Con esto hemos vuelto a atrás y se ha escrito automáticamente un mensaje indic
 > **Note** Por supuesto puedes escribir un mensaje personalizado si quieres especificar el motivo del revert. ¿Te animas a probar?
 
 
-## Subiendo mis archivos a la nube: github
+# Subiendo mis archivos a la nube: github
 
-Como último paso, vamos a compartir nuestra receta por el mundo. Para ello, vamos a crear un repositorio nuevo en [github.com](github.com). Github almacena tu código (y el de muchísima otra gente) para que puedas tenerlo en la nube y cualquiera tenga acceso a él. Por supuesto, siempre puedes hacer que un repositorio sea privado y que nadie lo mire ni lo toque. Cuando el repositorio es público, los usuarios de github podrán clonar tu repositorio y hacer cambios en sus ramas locales. Esas ramas podrán subirlas a github y podrán crear _Pull requests_, en las que podrás ver los cambios que han realizado y decidir si entran al código principal o no. 
+Como último paso, vamos a compartir nuestra receta por el mundo. Para ello, vamos a crear un repositorio nuevo en [github.com](www.github.com). Github almacena tu código (y el de muchísima otra gente) para que puedas tenerlo en la nube y cualquiera tenga acceso a él. Por supuesto, siempre puedes hacer que un repositorio sea privado y que nadie lo mire ni lo toque. Cuando el repositorio es público, los usuarios de github podrán clonar tu repositorio y hacer cambios en sus ramas locales. Esas ramas podrán subirlas a github y podrán crear _Pull requests_, en las que podrás ver los cambios que han realizado y decidir si entran al código principal o no. 
 
 Además, podrán abrir _issues_, lo que significa que podrán reportar errores en el código o podrán solicitar otro tipo de mejoras que tú u otro colaborador podéis trabajar en un _Pull request_. 
 
@@ -241,7 +243,7 @@ Para entrar a todo este hermoso mundo, regístrate y crea un repositorio vacío 
 > **Info** Dato: Una vez tengas configurada tu cuenta al 100 %, podrás subir al repositorio remoto las ramas que hayas [creado localmente](#creando-ramas-git-branch) usando el comando `git push`. ¡Ánimo!
 
 
-## Mucho git por conocer
+# Mucho git por conocer
 
 Git es algo que se aprende a usar en el día a día. Hay mil y un comandos que no hemos explorado porque esto es un curso de python y de Manim, no de git. Sin embargo, te animo a echarle un vistazo a la [documentación oficial](https://git-scm.com/doc) y a investigar por tu propia cuenta. 
 
