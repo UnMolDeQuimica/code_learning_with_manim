@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introducción](README.md)
 
-* [Parte 1](first_steps/README.md)
-    * [Introducción](first_steps/first_steps.md)
+* [Primeros pasos](first_steps/README.md)
+    * [Uso básico de la interfaz de línea de comandos](first_steps/command_line.md)

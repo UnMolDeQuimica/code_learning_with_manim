@@ -12,7 +12,7 @@ A modo de resumen (y de guía durante la confección del documento), seguiremos 
 
 * [ ] Primeros pasos
 
-  * [ ] Uso básico de la terminal
+  * [ ] Uso básico de la linea de comandos
   * [ ] Uso básico de git
   * [ ] Creación de entorno virtual
   * [ ] Instalación de Manim
