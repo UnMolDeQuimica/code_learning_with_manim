@@ -227,14 +227,22 @@ Con esto hemos vuelto a atrás y se ha escrito automáticamente un mensaje indic
 
 > **Note** Por supuesto puedes escribir un mensaje personalizado si quieres especificar el motivo del revert. ¿Te animas a probar?
 
+
+## Subiendo mis archivos a la nube: github
+
+Como último paso, vamos a compartir nuestra receta por el mundo. Para ello, vamos a crear un repositorio nuevo en [github.com](github.com). Github almacena tu código (y el de muchísima otra gente) para que puedas tenerlo en la nube y cualquiera tenga acceso a él. Por supuesto, siempre puedes hacer que un repositorio sea privado y que nadie lo mire ni lo toque. Cuando el repositorio es público, los usuarios de github podrán clonar tu repositorio y hacer cambios en sus ramas locales. Esas ramas podrán subirlas a github y podrán crear _Pull requests_, en las que podrás ver los cambios que han realizado y decidir si entran al código principal o no. 
+
+Además, podrán abrir _issues_, lo que significa que podrán reportar errores en el código o podrán solicitar otro tipo de mejoras que tú u otro colaborador podéis trabajar en un _Pull request_. 
+
+Por otra parte, tu también podrás hacer exactamente lo mismo pero con los proyectos de otros. Los podrás clonar, podrás solicitar mejoras y podrás contribuir. 
+
+Para entrar a todo este hermoso mundo, regístrate y crea un repositorio vacío como se indica en [las instrucciones](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository) y seguidamente sigue [estos otros pasos](https://docs.github.com/es/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github). Me gustaría describirlos aquí, pero pueden estar sujetos a cambios y mejor tener a mano siempre la documentación oficial de github. 
+
+> **Info** Dato: Una vez tengas configurada tu cuenta al 100 %, podrás subir al repositorio remoto las ramas que hayas [creado localmente](#creando-ramas-git-branch) usando el comando `git push`. ¡Ánimo!
+
+
 ## Mucho git por conocer
 
 Git es algo que se aprende a usar en el día a día. Hay mil y un comandos que no hemos explorado porque esto es un curso de python y de Manim, no de git. Sin embargo, te animo a echarle un vistazo a la [documentación oficial](https://git-scm.com/doc) y a investigar por tu propia cuenta. 
 
-> **Caution** ¡Atención! Queda un comando importante para el curso por conocer: `git clone`. Este permite descargar repositorios de otra gente y poder editarlos de forma local. 
-
-Te recomiendo visitar repositorios como el [ManimCE](https://github.com/ManimCommunity/manim) y te pasees largo y tendido por ahí para que veas el gran poder de git en acción. Además, te animo encarecidamente a crear una cuenta en [github.com](github.com) y a crear tus propios repositorios para tus proyectos personales. Este paso no lo describo en mayor profundidad porque está sujeto a posibles cambios por parte de github.com y hay millones de tutoriales que te ayudarán más que este a ese respecto. 
-
-
-
-
+Te recomiendo visitar repositorios como el [ManimCE](https://github.com/ManimCommunity/manim) y te pasees largo y tendido por ahí para que veas el gran poder de git en acción. Y ya, si quieres petarlo, puedes contribuir a la comunidad solucionando los posibles _issues_ que pueda haber. Pero antes de eso: ¡continúa con el tutorial para aprender a programar con python!
