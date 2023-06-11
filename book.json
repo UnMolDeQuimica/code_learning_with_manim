@@ -1,4 +1,35 @@
 {
     "title": "Aprender a programar en Python con Manim",
-    "author": "Miguel Ángel Rodríguez Vidal"
+    "author": "Miguel Ángel Rodríguez Vidal",
+    "links": {
+        "sidebar": {
+            "Visit my github page": "https://github.com/UnMolDeQuimica",
+            "My manim-chemistry plugin": "https://github.com/UnMolDeQuimica/manim-Chemistry",
+            "My YouTube channel": "https://www.youtube.com/@unmoldequimica"
+        }
+    },
+    "plugins": [
+        "heading-anchors@1.0.3",
+        "richquotes@0.0.9",
+        "github@2.0.0",
+        "language-picker",
+        "codeblock-label",
+        "sectionx-ex",
+        "collapsible-menu",
+        "gitbook-plugin-advanced-emoji"
+    ],
+    "pluginsConfig": {
+        "richquotes": {
+            "default": false
+        },
+        "github": {
+            "url": "https://github.com/UnMolDeQuimica/code_learning_with_manim"
+        },
+        "language-picker": {
+            "grid-columns": 3
+        },
+        "sectionx": {
+            "tag": "b"
+        }
+    }
 }
