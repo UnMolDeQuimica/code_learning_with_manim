@@ -1,6 +1,3 @@
----
-description: This is a short description of my page
----
 # La interfaz de línea de comandos
 
 Si eres nuevo en este mundo de la programación, la linea de comandos te recordará a lo que sale en las películas cuando un hacker tiene que robar datos de algun lugar. Tranqui, no vamos a hackear a nadie ni nadie te va a hackear. Simplemente vamos a introducirle comandos al ordenador de una forma distinta a la que sueles usar.
