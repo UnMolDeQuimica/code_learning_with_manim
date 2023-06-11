@@ -16,14 +16,14 @@
         "codeblock-label",
         "sectionx-ex",
         "collapsible-menu",
-        "todo"
+        "gitbook-plugin-advanced-emoji"
     ],
     "pluginsConfig": {
         "richquotes": {
             "default": false
         },
         "github": {
-            "url": "https://github.com/DjangoGirls/tutorial"
+            "url": "https://github.com/UnMolDeQuimica/code_learning_with_manim"
         },
         "language-picker": {
             "grid-columns": 3
