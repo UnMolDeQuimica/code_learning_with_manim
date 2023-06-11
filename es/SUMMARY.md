@@ -59,7 +59,7 @@
         * [Ahora sí, nuestra primera animación](my_first_animation/first_animation.md#ahora-sí-nuestra-primera-animación)
         * [¿Qué es lo que hemos hecho?](my_first_animation/first_animation.md#¿qué-es-lo-que-hemos-hecho)
     * [Uso básico del CLI de Manim](my_first_animation/basics_of_manim_cli.md)
-        * [# Uso básico del CLI de Manim](my_first_animation/basics_of_manim_cli.md#uso-básico-del-cli-de-manim)
+        * [Uso básico del CLI de Manim](my_first_animation/basics_of_manim_cli.md#uso-básico-del-cli-de-manim)
 
     * [Archivos en Manim](my_first_animation/manim_files.md)
         * [Archivos en Manim](my_first_animation/manim_files.md#archivos-en-manim)

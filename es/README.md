@@ -18,11 +18,11 @@ A modo de resumen (y de guía durante la confección del documento), seguiremos 
   - ✅ Instalación de Manim
   - ✅ Instalación de otras dependencias útiles
 
-- 🔲 Mi primera animación
+- ✅ Mi primera animación
   - ✅ Creación de un archivo .py
   - ✅ Primera animación simple y sencilla
-  - 🔲 Uso básico del CLI de Manim
-  - 🔲 Archivos en manim
+  - ✅ Uso básico del CLI de Manim
+  - ✅ Archivos en manim
 
 - 🔲 Bases de OOP y Python
 
