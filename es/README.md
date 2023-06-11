@@ -10,17 +10,17 @@ Dado que el objetivo del curso es presentar una introducción, no haremos cosas 
 
 A modo de resumen (y de guía durante la confección del documento), seguiremos los siguientes pasos:
 
-- 🔲 Primeros pasos
+- ✅ Primeros pasos
   - ✅ Uso básico de la interfaz de línea de comandos
-  - 🔲 Uso básico de git
-  - 🔲 Creación de entorno virtual
-  - 🔲 Instalación de Manim
-  - 🔲 Instalación de otras dependencias útiles
-  - 🔲 Editores de código
+  - ✅ Uso básico de git
+  - ✅ Creación de entorno virtual
+  - ✅ Editores de código
+  - ✅ Instalación de Manim
+  - ✅ Instalación de otras dependencias útiles
 
 - 🔲 Mi primera animación
-  - 🔲 Creación de archivo .py
-  - 🔲 Primera animación simple y sencilla
+  - ✅ Creación de un archivo .py
+  - ✅ Primera animación simple y sencilla
   - 🔲 Uso básico del CLI de Manim
   - 🔲 Archivos en manim
 
