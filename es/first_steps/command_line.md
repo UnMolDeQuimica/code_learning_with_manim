@@ -1,8 +1,8 @@
 # La interfaz de línea de comandos
 
-Si eres nuevo en este mundo de la programación, la linea de comandos te recordará a lo que sale en las películas cuando un hacker tiene que robar datos de algun lugar. Tranqui, no vamos a hackear a nadie ni nadie te va a hackear. Simplemente vamos a introducirle comandos al ordenador de una forma distinta a la que sueles usar.
+Si eres nuevo en este mundo de la programación, la linea de comandos te recordará a lo que sale en las películas cuando un hacker tiene que robar datos de algun lugar. Tranqui, no vamos a hackear a nadie ni nadie te va a hackear. Simplemente vamos darle instrucciones al ordenador de una forma distinta a la que sueles usar.
 
-Aunque se parezcan, las lineas de comandos de los distintos sistemas operativos son diferentes. Por ello, dirígete a la opción que más te convenga según tu sistema operativo: [Windows](#windows), [Ubuntu/Linux](#ubuntulinux), [MacOS](#macos)
+Aunque se parezcan, las lineas de comandos de los distintos sistemas operativos son diferentes. Dirígete a la opción que más te convenga según tu sistema operativo: [Windows](#windows), [Ubuntu/Linux](#ubuntulinux), [MacOS](#macos)
 
 ## Windows
 

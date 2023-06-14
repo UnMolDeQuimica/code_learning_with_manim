@@ -1,10 +1,10 @@
 # Editores de código: Grandes aliados.
 
-Existe una enorme variedad de editores de código. Ya hemos mencionado a VIM, pero en este apartado hablaré sobre editores algo más adecuados para principiantes. 
+Existe una enorme variedad de editores de código. Ya hemos mencionado a [VIM](https://i.redd.it/auqmgt4b8zm11.png), pero en este apartado hablaré sobre editores algo más adecuados para principiantes. 
 
 Que sean más fáciles de usar no significa que sean simples. Al contrario: La mayoría de editores cuentan con muchísimas funciones de forma nativa y con un gigantesco ecosistema de extensiones que te simplificarán la vida en muchísimos aspectos.
 
-Aunque se podría programar usando el bloc de notas o incluso libre office, lo ideal es usar software especializado. Lo que buscamos sone editores que aporten resaltado de sintaxis, autocompletado y una escritura cómoda en general. Todo lo demás va a gusto de cada uno. 
+Aunque se podría programar usando el bloc de notas o incluso libre office, lo ideal es usar software especializado. Lo que buscamos son editores que aporten resaltado de sintaxis, autocompletado y una escritura cómoda en general. Todo lo demás va a gusto de cada uno. 
 
 ## VSCode: Mi elección
 
@@ -19,7 +19,7 @@ Es mi elección personal, aunque sospecho que es por haber sido el primer editor
 
 ## PyCharm: Para los más exigentes
 
-PyCharm es, sin duda, uno de los mejores editores que existen para trabajar con python. Es increíblemente potente y cuenta con mil y una funcionalidades para el desarrollo. Igual que VSCode, cuenta con terminal, soporte para entornos virtuales, autocompletado, resaltado de sintaxis,búsqueda de referencias y una miríada de extensiones. Lo que diferncia a PyCharm son sus funciones por defecto como el debugging o el testeo, que vienen por defecto. 
+PyCharm es, sin duda, uno de los mejores editores que existen para trabajar con python. Es increíblemente potente y cuenta con mil y una funcionalidades para el desarrollo. Igual que VSCode, cuenta con terminal, soporte para entornos virtuales, autocompletado, resaltado de sintaxis,búsqueda de referencias y una miríada de extensiones. Lo que diferncia a PyCharm son sus velocidad (una vez abierto) y funciones como el debugging o el testeo, que vienen por defecto. 
 
 Por otra parte, PyCharm es un producto comercial, por lo que es necesario pagar una licencia para tener el 100 % de sus funcionalidades.
 

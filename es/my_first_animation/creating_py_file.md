@@ -21,4 +21,4 @@ Ahora, en la terminal corre el programa. Verás que ocurre algo como esto:
 Hello World!
 ```
 
-¿Has visto eso? ¡Lo que has escrito dentro de la `print` ha aparecido en la terminal! ¡Prueba a cambiar el texto a ver que ocurre!
+¿Has visto eso? ¡Lo que has escrito dentro de `print` ha aparecido en la terminal! ¡Prueba a cambiar el texto a ver que ocurre!
