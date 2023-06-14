@@ -8,16 +8,20 @@ De acuerdo. Otra vez: ¿Qué es git?
 
 *Git es un sistema de control de versiones distribuido de naturaleza décentralisée que impregna una amalgama sinérgica de teoría de grafos dirigidos acíclicos, funciones hash criptográficas y principios de conjuntos diferenciales. Este ingenioso artefacto matemático, concebido para registrar la evolución histórica de un proyecto, utiliza el poder del grafo para estructurar y visualizar las relaciones jerárquicas entre los commits, mientras que las funciones hash confieren integridad y unicidad a los identificadores de los objetos. Mediante la utilización de conjuntos de cambios, Git administra eficazmente las diferencias entre los estados de los archivos, plasmando así la esencia misma de la transformación diferencial. En suma, Git, con su elegante orquestación de conceptos matemáticos, se erige como una herramienta imprescindible para el control y la coordinación de las versiones, permitiendo a los artífices del software entrelazar la trama histórica de sus creaciones con maestría y solvencia.*
 
+*- Chat GPT*
+
 Venga va, vamos a una pregunta más fácil:
 
 # ¿Para qué usamos git?
 
-Supongamos que tenemos un archivo de texto llamado `receta.txt` y que tiene dentro una receta para preparar tortilla de patatas. Aunque la tortilla que hacemos siguiedo la receta está buena, sabemos que la podemos mejorar. Se nos ocurre introducir cebolla como nuevo ingrediente, así que abrimos nuestro archivo `receta.txt`, lo editamos y guardamos. Efectivamente, la tortilla nos ha salido mejor que antes. Sin embargo, sospechamos que podemos ir incluso a mejor y añadimos curry a la lista de ingredientes igual que antes. Error fatal: Ahora la tortilla sabe a rayos, asi que decidimos eliminar al curry de nuestra lista abriendo el archivo, editandolo de nuevo y guardando otra vez. 
+Supongamos que tenemos un archivo de texto llamado `receta.txt` y que tiene dentro una receta para preparar tortilla de patatas. Aunque la tortilla que hacemos siguiendo la receta está buena, sabemos que la podemos mejorar. Se nos ocurre introducir cebolla como nuevo ingrediente, así que abrimos nuestro archivo `receta.txt`, lo editamos y guardamos. Efectivamente, la tortilla nos ha salido mejor que antes. Sin embargo, sospechamos que podemos ir incluso a mejor y añadimos curry a la lista de ingredientes igual que antes. Error fatal: Ahora la tortilla sabe a rayos, asi que decidimos eliminar al curry de nuestra lista abriendo el archivo, editandolo de nuevo y guardando otra vez. 
+
+>**Comment** Comentario: La tortilla de patatas con cebolla sabe a gloria.
 
 
 Un dia decidimos compartir nuestra receta con algunos amigos, pero no se fían un pelo de nuestras habilidades culinarias y quieren saber qué proceso hemos seguido para llegar a tener la receta de tortilla de patatas ideal. Como nos ha llevado años perfeccionar la técnica, no nos acordamos exactamente de todos los pasos y cuando nos preguntan por este o aquel ingrediente no estamos seguros de si los llegamos a usar o no.
 
-Para salvar la situación en próximas ocasiones, podríamos anotar en el propio archivo los cambios que estamos realizandoa  modo de comentario de tal manera que podamos entender en qué pensabamos cuando añadimos o quitamos ingredientes. Sin embargo eso puede ensuciar mucho la receta y en lugar de leer los pasos a seguir, estamos leyendo el historial de cambios de la receta. 
+Para salvar la situación en próximas ocasiones, podríamos anotar en el propio archivo los cambios que estamos realizando a  modo de comentario de tal manera que podamos entender en qué pensabamos cuando añadimos o quitamos ingredientes. Sin embargo eso puede ensuciar mucho la receta y en lugar de leer los pasos a seguir, estamos leyendo el historial de cambios de la receta. 
 
 En su lugar, podríamos tener otra archivo llamado `cambios.txt` en el cual anotemos todos los cambios que hacemos, cuando los hemos hecho y, especialmente, por qué los hemos hecho. 
 
@@ -108,7 +112,7 @@ La confirmación de los cambios se hace mediante *commits*. Una forma de enteder
 
 ```
 
-Veámos que hemos escrito: `git commit` indica a git que comando queremos usar, en este caso `commit`. `-m` indica que queremos incluir un mensaje. Te recomiendo hacerlo de esta forma por el momento. Si no incluyes el `-m`, git automáticamente te llevará al editor vim para que introduzcas un mensaje y [créeme que no quieres eso](https://preview.redd.it/46nxs3303bo21.jpg?auto=webp&s=5ea3df4b5adb05585fa72961878583bf093b81cd). Por último, entre comillas introducimos nuestro mensaje. 
+Veámos que hemos escrito: `git commit` indica a git qué comando queremos usar, en este caso `commit`. `-m` indica que queremos incluir un mensaje. Te recomiendo hacerlo de esta forma por el momento. Si no incluyes el `-m`, git automáticamente te llevará al editor vim para que introduzcas un mensaje y [créeme que no quieres eso](https://preview.redd.it/46nxs3303bo21.jpg?auto=webp&s=5ea3df4b5adb05585fa72961878583bf093b81cd). Por último, entre comillas introducimos nuestro mensaje. 
 
 
 > **Danger** Enserio: No te olvides de usar `-m`. Vim es un poder que debería mantenerse lejos de los principiantes por su salud mental. 
@@ -153,7 +157,7 @@ Con esto ya hemos hecho los cambios en nuestra rama _`first_ingredients`_.
 
 ## Juntando ramas: `git merge`
 
-Hagámos una experimento rápido: Vayámos a nuestra rama master y abramos nuestro archivo `receta.txt` a ver que nos encontramos:
+Hagámos un experimento rápido: Vayámos a nuestra rama master y abramos nuestro archivo `receta.txt` a ver que nos encontramos:
 
 {% filename %}command-line{% endfilename %}
 ```command-line
@@ -222,10 +226,14 @@ Podemos ver que el commit que queremos eliminar es en el que hemos eliminado cos
  1 file changed, 5 insertions(+)
 ```
 
+> **Note** Por supuesto puedes escribir un mensaje personalizado si quieres especificar el motivo del revert. ¿Te animas a probar?
+
 Con esto hemos vuelto a atrás y se ha escrito automáticamente un mensaje indicando esta acción. Si no puedes salir del log, presiona la tecla q. 
 
 
-> **Note** Por supuesto puedes escribir un mensaje personalizado si quieres especificar el motivo del revert. ¿Te animas a probar?
+
+
+> **Hint** Si aún no has añadido tus cambios a la stage zone con `git add` puedes volver al estado inicial del commit usando el comando `git restore .`. Si has usadi `git add` pero quieres eliminar ese cambio, puedes usar el comando `git rm --cached .` para devolver todo al estado inicial del commit. 
 
 
 ## Subiendo mis archivos a la nube: github

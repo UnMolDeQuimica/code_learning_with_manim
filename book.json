@@ -16,7 +16,9 @@
         "codeblock-label",
         "sectionx-ex",
         "collapsible-menu",
-        "gitbook-plugin-advanced-emoji"
+        "copy-code-button",
+        "gitbook-plugin-advanced-emoji",
+        "honkit-plugin-theme-osiris"
     ],
     "pluginsConfig": {
         "richquotes": {
