@@ -8,7 +8,7 @@ Además, daré una pequeña anotación para los usuarios de Windows, para los cu
 
 ## Windows
 
-Si eres usuario de Windows, espero que hayas venido directo desde la [instalación de python](installing_python.md#windows). Necesito que antes de continuar instales una cosilla sabrosa llamada `chocolatey`. Para ello, puedes seguir las instrucciones que encontrarás [aquí](https://chocolatey.org/install), pero se resume en utilizar los siguientes comandos:
+Si eres usuario de Windows, espero que hayas venido directo desde la [instalación de python](installing_python.md#windows). Necesito que antes de continuar instales una cosilla sabrosa llamada `chocolatey`. Para ello, puedes seguir las instrucciones que encontrarás [aquí](https://chocolatey.org/install), pero se resume en utilizar los siguientes comandos dentro de `PowerShell`:
 
 {% filename %} command-line{% endfilename %}
 ```command-line

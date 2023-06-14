@@ -31,5 +31,5 @@ Te explico:
 
 - En la primera línea le hemos dicho a python que busque entre sus librerías la librería manim y que de ahí nos lo traiga todo. Eso es lo que significa `from manim import *`
 - Luego hemos credo una clase llamada `FirstAnimation` que hereda de la clase `Scene`. Esto, que ocurre en la línea 3, ahora suena muy extraño y místico, pero ya llegaremos. 
-- Hemos sobreescrito el método `construct` de la clase `Scene`. Esta sobreescritura comienza enla línea 4 y termina en la línea 9. De nuevo, suena a magia pero ya llegaremos en el futuro. 
-- En la linea de comandos hemos llamado a `manim` y le hemos dicho que abra el archivo `my_first_animation.py` para hacer una animación y que queremos previsualizar el resultado usando la flag `-p`. Ahora que dominas un poco más la linea de comandos no es tan extraño ¿verdad?
+- Hemos sobreescrito el método `construct` de la clase `Scene`. Esta sobreescritura comienza en la línea 4 y termina en la línea 9. De nuevo, suena a magia pero ya llegaremos en el futuro. 
+- En la linea de comandos hemos llamado a `manim` y le hemos dicho que abra el archivo `my_first_animation.py` para hacer una animación. Además, con la flag `-p` le hemos dicho que queremos previsualizar el resultado. Ahora que dominas un poco más la linea de comandos no es tan extraño ¿verdad?

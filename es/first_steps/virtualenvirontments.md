@@ -57,16 +57,16 @@ Finalmente, en MacOS se puede instalar con brew:
 
 # Crear entornos virtuales
 
-Para crear un entorno virtual, es tan sencillo como movernos a la carpeta en la cual queremos crear el entorno virtual y usar el siguiente comando:
+Crear un entorno virtual es tan sencillo como movernos a la carpeta en la cual queremos crear el entorno virtual y usar el siguiente comando:
 
 {% filename %}command-line{% endfilename %}
 ```command-line
 > pipenv shell
 ```
 
-De forma automática pipenv nos creará el entorno virtual y estaremos listos para utilizar nuestro entorno libre de interferencias con el mundo exterior. Fíjate que en la carpeta se habrá creado un archivo llamado `Pipfile`. En este archivo se indicará información como la versión de python que se utiliza y los paquetes que se vayan instalando en el entorno.
+De forma automática pipenv nos creará el entorno virtual y estaremos listos para utilizar nuestro entorno libre de interferencias con el mundo exterior. Fíjate que en la carpeta se habrá creado un archivo llamado `Pipfile`. En este archivo se escribirá automáticamente información como la versión de python que se utiliza y los paquetes que se vayan instalando en el entorno.
 
-**Comment** Cada vez que quieras acceder de nuevo al entorno virtual debes usar el mismo comando `pipenv shell` dentro de la misma carpeta. 
+> **Comment** Cada vez que quieras acceder de nuevo al entorno virtual debes usar el mismo comando `pipenv shell` dentro de la misma carpeta. 
 
 # Instalando paquetes dentro del entorno virtual
 
@@ -90,7 +90,7 @@ Podemos listar todos los paquetes que tenemos instalados en nuestro entorno virt
 
 Esto nos creará un archivo llamado `Pipfile.lock` en el cual se guardarán referencias a todos los paquetes que hemos instalado, incluyendo versiones específicas. 
 
-Esto es muy útil para compartir el conjunto de paquetes que utiliza un proyecto. Por ejemplo, si descargo un proyecto de github y este tiene un archivo Pipfile.lock puedo simplemente usar el comando `pipenv install`.
+Este archivo es muy útil para compartir el conjunto de paquetes que utiliza un proyecto. Por ejemplo, si descargo un proyecto de github y este tiene un archivo Pipfile.lock puedo simplemente usar el comando `pipenv install`.
 
 
 Esta no es la única forma de instalar paquetes en grupo. De hecho, la forma habitual es haciendo uso de un archivo llamado `requirements.txt`. Con pipenv podemos instalar desde requirements utilizando el comando:
