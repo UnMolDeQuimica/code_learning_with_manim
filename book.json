@@ -17,8 +17,7 @@
         "sectionx-ex",
         "collapsible-menu",
         "copy-code-button",
-        "gitbook-plugin-advanced-emoji",
-        "honkit-plugin-theme-osiris"
+        "gitbook-plugin-advanced-emoji"
     ],
     "pluginsConfig": {
         "richquotes": {

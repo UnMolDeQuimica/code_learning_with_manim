@@ -63,4 +63,8 @@
 
     * [Archivos en Manim](my_first_animation/manim_files.md)
         * [Archivos en Manim](my_first_animation/manim_files.md#archivos-en-manim)
+
+* [Bases de OOP y Python](oop_basics/README.md)
+    * [Fundamentos de funciones](oop_basics/functions_fundamentals.md)
+    * [Fundamentos de clases](oop_basics/class_fundamentals.md)
     
