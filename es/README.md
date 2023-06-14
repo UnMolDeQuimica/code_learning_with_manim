@@ -25,17 +25,16 @@ A modo de resumen (y de guía durante la confección del documento), seguiremos 
   - ✅ Archivos en manim
 
 - 🔲 Bases de OOP y Python
-
+  - ✅ Fundamentos de Funciones
+    - ✅ Definición de funciones
+    - ✅ Devolver valores
+    - ✅ Parámetros y argumentos
   - 🔲 Fundamentos de Clases
     - 🔲 Definición de clases
     - 🔲 Definición de métodos
-    - 🔲 Variables de clase
     - 🔲 Método `__init__`
     - 🔲 El `self`
-  - 🔲 Fundamentos de Funciones
-    - 🔲 Definición de funciones
-    - 🔲 Devolver valores
-    - 🔲 Parámetros y argumentos
+  
   - 🔲 Variables
     - 🔲 Cadenas
     - 🔲 Números
@@ -55,7 +54,7 @@ A modo de resumen (y de guía durante la confección del documento), seguiremos 
   - 🔲 Tipado de funciones
 
 - 🔲 Clases: En mayor profundidad
-  
+  - 🔲 Variables de clase
   - 🔲 Herencia: En profundidad
   - 🔲 Sobreescritura de funciones
 

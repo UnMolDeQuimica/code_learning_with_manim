@@ -16,8 +16,8 @@
         "codeblock-label",
         "sectionx-ex",
         "collapsible-menu",
-        "copy-code-button",
-        "gitbook-plugin-advanced-emoji"
+        "gitbook-plugin-advanced-emoji",
+        "code"
     ],
     "pluginsConfig": {
         "richquotes": {

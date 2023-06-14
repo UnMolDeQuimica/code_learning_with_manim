@@ -65,6 +65,17 @@
         * [Archivos en Manim](my_first_animation/manim_files.md#archivos-en-manim)
 
 * [Bases de OOP y Python](oop_basics/README.md)
-    * [Fundamentos de funciones](oop_basics/functions_fundamentals.md)
-    * [Fundamentos de clases](oop_basics/class_fundamentals.md)
+    * [Fundamentos de funciones](oop_basics/functions_fundamentals/functions_fundamentals.md)
+        * [Definición de funciones](oop_basics/functions_fundamentals/functions_fundamentals_functions_definition.md)
+        * [Experimentando un poco](oop_basics/functions_fundamentals/functions_fundamentals_experimenting_a_bit.md)
+        * [Indentación: Fundamental en python](oop_basics/functions_fundamentals/functions_fundamentals_indentation.md)
+        * [Devolver valores](oop_basics/functions_fundamentals/functions_fundamentals_return_values.md)
+        * [Parámetros y argumentos](oop_basics/functions_fundamentals/functions_fundamentals_parameters_and_arguments.md)
+        * [Poniendo todo junto con un ejemplo](oop_basics/functions_fundamentals/functions_fundamentals_example.md)
+
+    * [Fundamentos de clases](oop_basics/class_fundamentals/class_fundamentals.md)
+        * [Definición de clases](oop_basics/class_fundamentals/class_fundamentals_definition_of_class.md)
+        * [Definición de métodos](oop_basics/class_fundamentals/class_fundamentals_definition_of_methods.md)
+        * [El método __init__](oop_basics/class_fundamentals/class_fundamentals_the_init_method.md)
+        * [El self](oop_basics/class_fundamentals/class_fundamentals_the_self.md)
     
