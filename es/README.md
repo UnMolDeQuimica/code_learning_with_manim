@@ -29,11 +29,12 @@ A modo de resumen (y de guía durante la confección del documento), seguiremos 
     - ✅ Definición de funciones
     - ✅ Devolver valores
     - ✅ Parámetros y argumentos
-  - 🔲 Fundamentos de Clases
-    - 🔲 Definición de clases
-    - 🔲 Definición de métodos
-    - 🔲 Método `__init__`
-    - 🔲 El `self`
+
+  - ✅ Fundamentos de Clases
+    - ✅ Definición de clases
+    - ✅ Definición de métodos
+    - ✅ Método `__init__`
+    - ✅ El `self`
   
   - 🔲 Variables
     - 🔲 Cadenas

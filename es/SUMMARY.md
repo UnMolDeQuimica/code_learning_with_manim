@@ -79,3 +79,12 @@
         * [El método __init__](oop_basics/class_fundamentals/class_fundamentals_the_init_method.md)
         * [El self](oop_basics/class_fundamentals/class_fundamentals_the_self.md)
     
+    * [Variables](oop_basics/variables/variables.md)
+        * [Cadenas](oop_basics/variables/variables_strings.md)
+        * [Números](oop_basics/variables/variables_numbers.md)
+        * [Booleanos](oop_basics/variables/variables_booleans.md)
+    * [Estructuras de datos](oop_basics/data_structures/data_structures.md)
+        * [Listas](oop_basics/data_structures/data_structures_lists.md)
+        * [Tuplas](oop_basics/data_structures/data_structures_tuples.md)
+        * [Diccionarios](oop_basics/data_structures/data_structures_dics.md)
+        * [Sets](oop_basics/data_structures/data_structures_sets.md)
