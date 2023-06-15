@@ -16,6 +16,7 @@
     "serve": "honkit serve"
   },
   "dependencies": {
+    "gitbook-plugin-code": "^0.1.0",
     "gitbook-plugin-copy-code-button": "^0.0.2"
   },
   "name": "code_learning_with_manim",
