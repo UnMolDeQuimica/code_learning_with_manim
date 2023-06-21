@@ -18,7 +18,7 @@ Si ya tienes una versión de python instalada, excelente. Si no la tienes, no te
 Ubuntu viene con una versión de python instalada por defecto. Para comprobar que versión tienes, utiliza el comando `python3 -V` y verás algo así:
 
 {% filename %}Ubuntu/Linux command-line{% endfilename %}
-```command-line
+```bash
 $ python3 -V
 Python 3.10.6
 
@@ -28,7 +28,7 @@ Python 3.10.6
 Además, será necesario que instales pip3. Para ello, utilizar los siguientes comandos:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 $ sudo apt update # Actualiza el árbol de paquetes
 $ sudo apt get install python3-pip # Instala pip
 ```

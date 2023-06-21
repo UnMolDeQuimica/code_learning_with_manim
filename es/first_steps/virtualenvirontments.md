@@ -37,21 +37,21 @@ Existen muchas formas distintas de crear entornos virtuales para python. Una de 
 En Windows lo podemos instalar usando el comando:
 
 {% filename %}Windows command-line{% endfilename %}
-```command-line
+```bash
 > pip install pipenv
 ```
 
 En Ubuntu/Linux con:
 
 {% filename %}Ubuntu/Linux command-line{% endfilename %}
-```command-line
+```bash
 $ sudo apt get install pipenv
 ```
 
 Finalmente, en MacOS se puede instalar con brew:
 
 {% filename %}Ubuntu/Linux command-line{% endfilename %}
-```command-line
+```bash
 % brew install pipenv
 ```
 
@@ -60,7 +60,7 @@ Finalmente, en MacOS se puede instalar con brew:
 Crear un entorno virtual es tan sencillo como movernos a la carpeta en la cual queremos crear el entorno virtual y usar el siguiente comando:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > pipenv shell
 ```
 
@@ -73,7 +73,7 @@ De forma automática pipenv nos creará el entorno virtual y estaremos listos pa
 Una vez dentro del entorno virtual seremos capaces de instalar paquetes que funcionen única y exclusivamente dentro de ese entorno. Por ejemplo, podemos instalar el paquete numpy. Para ello usaremos el siguiente comando dentro del entorno virtual:
 
 {% filename %} command-line{% endfilename %}
-```command-line
+```bash
 > pipenv install numpy
 ```
 
@@ -84,7 +84,7 @@ Ahora tenemos numpy instalado dentro de nuestro entorno y podremos usarlo siempr
 Podemos listar todos los paquetes que tenemos instalados en nuestro entorno virtual usando el comando:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > pipenv lock
 ```
 
@@ -97,7 +97,7 @@ Esta no es la única forma de instalar paquetes en grupo. De hecho, la forma hab
 
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > pipenv install -r requirements.txt 
 ```
 
@@ -109,7 +109,7 @@ Ahora que ya sabes como [crear un proyecto con git](intro_to_git.md) y que sabes
 Es importante que lo pruebes por tu cuenta, pero aquí tienes un ejemplo.
 
 {% filename %}command-line{% endfilename %}
- ```command-line
+ ```bash
  > mkdir manim_animations
  > cd manim_animations
  > git init

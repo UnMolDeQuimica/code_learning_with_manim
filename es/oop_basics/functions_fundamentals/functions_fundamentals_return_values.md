@@ -21,7 +21,7 @@ print(ejemplo_de_return())
 ```
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python test_funcion.py
 "Esto es un ejemplo"
 ```

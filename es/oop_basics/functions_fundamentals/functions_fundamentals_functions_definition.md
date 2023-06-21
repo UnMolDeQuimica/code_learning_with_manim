@@ -1,6 +1,6 @@
 ## Definición de funciones
 
-Vamos a comenzar por definir una función. Primero de todo, crea un archivo `.py` en la carpeta que creaste para este proyecto con el entorno virtual activado. A este archiv en el que escribiremos nuestra primera función llámalo `mi_primera_funcion.py`. ¿Ya lo tienes? Pues escribe lo siguiente:
+Vamos a comenzar por definir una función. Primero de todo, crea un archivo `.py` en la carpeta que creaste para este proyecto con el entorno virtual activado. A este archivo en el que escribiremos nuestra primera función llámalo `mi_primera_funcion.py`. ¿Ya lo tienes? Pues escribe lo siguiente:
 
 {% filename %}python{% endfilename %}
 ```python
@@ -13,7 +13,7 @@ mi_primera_funcion()
 Ahora en la terminal escribe
 
 {% filename %} command-line{% endfilename %}
-```command-line
+```bash
 > python mi_primera_funcion.py
 Esta es mi primera función
 ```

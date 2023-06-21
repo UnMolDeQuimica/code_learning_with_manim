@@ -12,7 +12,7 @@ mi_primera_funcion() # Línea sin indentación
 
 La línea 1 comienza con la palabra `def` con la `d` en el espacio correspondiente al primer caracter. Sin embargo, la segunda línea comienza con cuatro espacios vacíos y luego la palabra `print`. Dejar estos espacios vacíos se llama *indentación* y es fundamental en python. 
 
-> **Message** **Importante**: Por lo general, las indentaciones deben contener 4 espacios. Los editores de código suelen venir por defecto con esta configuración y, al apretar la tecla `tab` suelen aplicar los 4 espacios de golpe, evitando así que tengamos que meterlos a mano. Es importante verificarlo por si acaso, ya que a veces vienen con 2 por defecto. 
+> **Info** **Importante**: Por lo general, las indentaciones deben contener 4 espacios. Los editores de código suelen venir por defecto con esta configuración y, al apretar la tecla `tab` suelen aplicar los 4 espacios de golpe, evitando así que tengamos que meterlos a mano. Es importante verificarlo por si acaso, ya que a veces vienen con 2 por defecto. 
 
 Si quitas la indentación a la línea 3 pasa lo siguiente: 
 
@@ -26,7 +26,7 @@ mi_primera_funcion() # Línea sin indentación
 ```
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python test_funcion.py
 ¡Y ahora he añadido una nueva línea!
 Ésta es mi primera función
@@ -40,3 +40,21 @@ Esto se lo hemos especificado quitando la indentación en la línea 3. De debere
 
 > **Danger** **PELIGRO**: No me cansaré de decirlo. Fíjate en la indentación para estar seguro de que tu código hace lo que tú quieres que haga. Más adelante veremos que la indentación es necesaria en muchas otras partes del código. 
 
+
+Cuando no indentamos correctamente, python no solo no ejecutará el código sino que devolverá un error. Prueba a ejecutar este código:
+
+{% filename %}python{% endfilename %}
+```python
+def mi_funcion():
+print("Esto va a devolver un error")
+```
+
+Como resultado obtenemos:
+
+{% filename %} command-line{% endfilename %}
+```bash
+  File "<stdin>", line 2
+    print("Esto va a devolver un error")
+    ^
+IndentationError: expected an indented block after function definition on line 1
+```

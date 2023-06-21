@@ -39,7 +39,7 @@ La instalación de git es diferente en cada sistema operativo. Dado que este doc
 Ahora que tenemos git instalado, vamos a empezar con un ejemplo. Para ello, vamos a abrir una terminal y a crear una carpeta llamada `git_practice` de forma similar a como hicimos en [Uso básico de la interfaz de línea de comandos](command_line.md) e iniciaremos el repositorio de git con el comando `git init`
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > mkdir git_practice
 > cd git_practice
 > git init
@@ -52,7 +52,7 @@ Este último mensaje significa que ahora git estará vigilando los cambios que r
 Para poder indicar quienes realizan los cambios en el repositorio, es necesario utilizar los siguientes comandos indicando tu nombre y tu email:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 git config --global user.name "Miguel Ángel"
 git config --global user.email "unmoldequimica@gmail.com"
 ```
@@ -63,14 +63,14 @@ git config --global user.email "unmoldequimica@gmail.com"
 Ahora que tenemos nuestro repositorio inicializado y nuestras credenciales indicadas, podemos crear un archivo nuevo llamado `receta.txt`. En windows podemos abrir la carpeta y crear un archivo de texto nuevo con el bloc de notas. En Ubuntu/Linux y MacOS podemos hacer lo mismo o podemos usar el comando `touch`:
 
 {% filename %}Ubuntu/Linux and MacOS command-line{% endfilename %}
-```command-line
+```bash
 $ touch receta.txt
 ```
 
 En cualquier sistema operativo podemos usar el comando `git status` para que se nos muestren los cambios que hemos realizado en nuestra carpeta git_practice:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git status
 En la rama master
 
@@ -86,7 +86,7 @@ no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa 
 Podemos ver que git sabe que hemos creato el archivo `receta.txt` pero aún no está monitorizando los cambios que le hemos realizado. Para ello, usaremos el comando `git add <nombre-del-archivo>`, lo cual añadirá el archivo a la zona de stage. Si volvemos a usar el comando `git status` veremos que los cambios están pendientes de ser confirmados:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git add receta.txt
 > git status
 En la rama master
@@ -104,7 +104,7 @@ Cambios a ser confirmados:
 La confirmación de los cambios se hace mediante *commits*. Una forma de enteder los commits es como fotos del estado de nuestros archivos. Cuando usamos el comando `git add` estamos colocando a los archivos delante de la cámara. Cuando usamos el comando `git commit` estamos presionando el botón para hacer la fotografía. Además, esta fotografía debe llevar, casi obligatoriamente, una etiqueta que nos ayude a entender por qué hemos hecho la foto en ese momento. En este caso, podemos usar el siguiente comando:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git commit -m "Creates receta.txt file"
 [master (commit-raíz) 7914d38] Creates receta.txt file
  1 file changed, 0 insertions(+), 0 deletions(-)
@@ -126,7 +126,7 @@ Una de las enormes ventajas de git es la posibilidad de trabajar en paralelo con
 Vamos a crear una rama llamada _`first_ingredients`_ en la que vamos a añadir los principales ingredientes a nuestra receta:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git branch "first_ingredients"
 > git switch first_ingredients
 Cambiado a rama 'first_ingredients'
@@ -145,7 +145,7 @@ Ingredientes:
 Guardamos y comitamos los cambios:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git add receta.txt
 > git commit -m "Adds basic ingredients"
 En la rama first_ingredients
@@ -160,7 +160,7 @@ Con esto ya hemos hecho los cambios en nuestra rama _`first_ingredients`_.
 Hagámos un experimento rápido: Vayámos a nuestra rama master y abramos nuestro archivo `receta.txt` a ver que nos encontramos:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git switch master
 Cambiado a rama 'master'
 ```
@@ -170,7 +170,7 @@ Si abrimos el archivo, veremos que está vacio. ¿Y MIS CAMBIOS DÓNDE ESTÁN?
 Tranqui, los cambios están en la rama _`first_ingredients`_, por lo que es normal que no estén en la rama _`master`_. Si los quieres traer, hay que usar el comando `git merge <nombre-de-tu-rama>`:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git merge first_ingredients
 Actualizando 7914d38..3f4afcc
 Fast-forward
@@ -186,7 +186,7 @@ Si abres de nuevo el archivo, verás que están todos los cambios que hemos hech
 Vamos a liarla un poco. Vamos a borrar todo lo que hay en el archivo y vamos a hacer un commit: 
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git add receta.txt
 > git commit -m "I deleted everything muahahahahahah"
 [master 28d75a6] I deleted everything muahahahahahah
@@ -196,7 +196,7 @@ Vamos a liarla un poco. Vamos a borrar todo lo que hay en el archivo y vamos a h
 ¿Qué pasa si quiero recuperar la lista que tenía? Podemos usar el comando `git log` para ver todos los commits que se han hecho hasta ahora:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 >  git log
 commit 28d75a6eb72d029bca4d10c70616b0fae95a38fd (HEAD -> master)
 Author: Miguel Ángel Rodríguez Vidal <unmoldequimica@gmail.com>
@@ -220,7 +220,7 @@ Date:   Sun Jun 11 20:39:28 2023 +0200
 Podemos ver que el commit que queremos eliminar es en el que hemos eliminado cosas. Es fácil de identificar gracias al comentario que hemos puesto. Su código identificador comienza por `28d75a6` y eso es más que suficiente para volver atrás. Para ello, usamos el comando `git revert` de la siguiente manera:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > git revert --no-edit 28d75a6 
 [master 1fdebb6] Revert "I deleted everything muahahahahahah"
  1 file changed, 5 insertions(+)

@@ -44,7 +44,7 @@ En Windows verás un mensaje como este:
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 C:\Users\Miguel> whoami
 Miguel
 ```
@@ -55,7 +55,7 @@ En Ubuntu/Linux verás lo siguiente:
 
 {% filename %}Ubuntu/Linux command-line{% endfilename %}
 
-```command-line
+```bash
 miguel@miguel: ~$ whoami
 Miguel
 ```
@@ -64,7 +64,7 @@ Por último, en MacOS verás algo así:
 
 {% filename %}MacOS command-line{% endfilename %}
 
-```command-line
+```bash
 miguel@miguel: ~ % whoami
 Miguel
 ```
@@ -73,7 +73,7 @@ Como ves, el mismo comando sirve en las tres pero las tres tienen pequeñas dife
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 > whoami # Comando
 Miguel # Resultado
 ```
@@ -82,7 +82,7 @@ En otros lugares, especialmente si estás enfocado a Linux o MacOS verás que ut
 
 {% filename %}Ubuntu/Linux and MacOS command-line{% endfilename %}
 
-```command-line
+```bash
 $ whoami # Comando
 Miguel # Resultado
 ```
@@ -91,7 +91,7 @@ o quizá
 
 {% filename %}Ubuntu/Linux and MacOS command-line{% endfilename %}
 
-```command-line
+```bash
 % whoami # Comando
 Miguel # Resultado
 ```
@@ -104,7 +104,7 @@ El comando que hemos utilizado antes (`whoami`) devuelve el usuario con el que s
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 > pwd
 C:\Users\miguel
 ```
@@ -113,7 +113,7 @@ En Ubuntu y Mac será una cosa similar a:
 
 {% filename %}Ubuntu/Linux and MacOS command-line{% endfilename %}
 
-```command-line
+```bash
 $ pwd
 /Users/miguel
 ```
@@ -124,7 +124,7 @@ Windows:
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 > cd ..
 > pwd
 C:\Users
@@ -134,7 +134,7 @@ Ubuntu y MacOS:
 
 {% filename %}Ubuntu/Linux and MacOS  command-line{% endfilename %}
 
-```command-line
+```bash
 $ cd ..
 $ pwd
 /Users
@@ -144,7 +144,7 @@ $ pwd
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 > dir
 
 Directory of C:\Users\miguel
@@ -158,7 +158,7 @@ Directory of C:\Users\miguel
 
 {% filename %}Ubuntu/Linux and MacOS  command-line{% endfilename %}
 
-```command-line
+```bash
 $ ls
 Applications
 Desktop
@@ -171,7 +171,7 @@ Si quisiéramos volver a nuestra carpeta `Users` tendríamos que usar el comando
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 > cd Users
 > pwd
 C:\Users\miguel
@@ -179,7 +179,7 @@ C:\Users\miguel
 
 {% filename %}Ubuntu/Linux and MacOS command-line{% endfilename %}
 
-```command-line
+```bash
 $ cd Users
 $ pwd
 /Users/miguel
@@ -189,7 +189,7 @@ Otros comandos nos permiten ejecutar programas o realizar acciones. Por ejemplo,
 
 {% filename %}Windows command-line{% endfilename %}
 
-```command-line
+```bash
 > mkdir tutorial_manim
 > cd tutorial_manim
 > pwd
@@ -198,7 +198,7 @@ C:\Users\miguel\tutorial_manim
 
 {% filename %}Ubuntu/Linux and MacOS command-line{% endfilename %}
 
-```command-line
+```bash
 $ mkdir tutorial_manim
 $ cd tutorial_manim
 $ pwd

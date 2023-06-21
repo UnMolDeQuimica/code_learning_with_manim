@@ -6,7 +6,7 @@ Ahora, sin modificar el archivo, utiliza el siguiente comando:
 
 {% filename %}command-line{% endfilename %}
 
-```command-line
+```bash
 > manim my_first_animation.py -ps
 ```
 
@@ -25,3 +25,5 @@ Por lo general, usaremos los siguiente comandos:
 Además, podemos encadenar estos comandos para producir animaciones con disintas características. Por ejemplo si usamos el comando `manim my_first_animation.py -pqm`, se renderizará la animación en calidad media y se abrirá el video correspondiente cuando esté listo. Por otro lado, si usamos el comanto `manim my_first_animation.py -psql` se renderizará la animación en calida baja y se abrirá una imagen con el último fotograma. 
 
 Puedes usar el comando `manim --help` o echar un vistazo a la [documentación](https://docs.manim.community/en/stable/guides/configuration.html?highlight=CLI#a-list-of-all-cli-flags) de manim para ver que otras flags hay disponibles. 
+
+> **Hint** **Dato:** Cuando usamos `-s` para renderizar solo el último fotograma en lugar de todo el video ganamos en velocidad. Al no tener que renderizar todos los fotogramas, `manim` es capaz de devolver un resultado mucho más rápido, lo que nos permite ver el estado final de nuestra animación sin consumir mucho tiempo ni recursos. 

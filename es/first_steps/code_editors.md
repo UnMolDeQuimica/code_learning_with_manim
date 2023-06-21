@@ -19,7 +19,7 @@ Es mi elección personal, aunque sospecho que es por haber sido el primer editor
 
 ## PyCharm: Para los más exigentes
 
-PyCharm es, sin duda, uno de los mejores editores que existen para trabajar con python. Es increíblemente potente y cuenta con mil y una funcionalidades para el desarrollo. Igual que VSCode, cuenta con terminal, soporte para entornos virtuales, autocompletado, resaltado de sintaxis,búsqueda de referencias y una miríada de extensiones. Lo que diferncia a PyCharm son sus velocidad (una vez abierto) y funciones como el debugging o el testeo, que vienen por defecto. 
+PyCharm es, sin duda, uno de los mejores editores que existen para trabajar con python. Es increíblemente potente y cuenta con mil y una funcionalidades para el desarrollo. Igual que VSCode, cuenta con terminal, soporte para entornos virtuales, autocompletado, resaltado de sintaxis, búsqueda de referencias y una miríada de extensiones. Lo que diferencia a PyCharm del resto son sus velocidad (una vez abierto) y funciones como el debugging o el testeo, que vienen por defecto. 
 
 Por otra parte, PyCharm es un producto comercial, por lo que es necesario pagar una licencia para tener el 100 % de sus funcionalidades.
 

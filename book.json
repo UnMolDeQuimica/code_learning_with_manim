@@ -14,10 +14,10 @@
         "github@2.0.0",
         "language-picker",
         "codeblock-label",
-        "sectionx-ex",
         "collapsible-menu",
         "gitbook-plugin-advanced-emoji",
-        "code"
+        "code",
+        "prism"
     ],
     "pluginsConfig": {
         "richquotes": {
@@ -31,6 +31,11 @@
         },
         "sectionx": {
             "tag": "b"
+        },
+        "pluginsConfig": {
+            "terminull": {
+              "theme": "dark"
+            }
         }
     }
 }

@@ -11,7 +11,7 @@ Además, daré una pequeña anotación para los usuarios de Windows, para los cu
 Si eres usuario de Windows, espero que hayas venido directo desde la [instalación de python](installing_python.md#windows). Necesito que antes de continuar instales una cosilla sabrosa llamada `chocolatey`. Para ello, puedes seguir las instrucciones que encontrarás [aquí](https://chocolatey.org/install), pero se resume en utilizar los siguientes comandos dentro de `PowerShell`:
 
 {% filename %} command-line{% endfilename %}
-```command-line
+```bash
 > Set-ExecutionPolicy AllSigned
 > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```

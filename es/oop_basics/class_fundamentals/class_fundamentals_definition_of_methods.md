@@ -40,7 +40,7 @@ print(addition(2,3))
 ```
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python calculator.py
 Traceback (most recent call last):
   File "/calculator.py", line 14, in <module>

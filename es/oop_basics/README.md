@@ -6,7 +6,7 @@ En la OOP programamos _objetos_ que representan _cosas_. Sí, cosas, así en gen
 
 Por otra parte, los objetos también pueden representar cosas más abstractas como bases de datos o conjuntos de operaciones matemáticas. 
 
-En python los objetos se definen mediante classes llamadas `class`. Además, tenemos _funciones_ que permiten introducir inputs y obtener outputs. Las classes pueden tener funciones propias a las que llamaremos _métodos_ y que servirán para alterar el estado de la clase. 
+En python los objetos se definen mediante clases llamadas `class`. Además, tenemos _funciones_ que permiten introducir inputs y obtener outputs. Las clases pueden tener funciones propias a las que llamaremos _métodos_ y que servirán para alterar el estado de la clase. 
 
 En este capítulo hablaremos solo de forma superficial de cómo tratamos la OOP en python. Tras un vistazo general nos iremos en mayor profundidad a revisar los conceptos de _funciones_ y _clases_, pero por ahora tan solo será una breve introducción para ir haciéndonos amigos. 
 

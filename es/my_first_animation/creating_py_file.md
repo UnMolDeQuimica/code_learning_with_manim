@@ -16,7 +16,7 @@ print("Hello World!")
 Ahora, en la terminal corre el programa. Verás que ocurre algo como esto:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python hello_world.py
 Hello World!
 ```

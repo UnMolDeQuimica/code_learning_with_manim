@@ -19,7 +19,7 @@ class FirstAnimation(Scene):
 Ahora, vete a la terminal y escribe lo siguiente:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > manim my_first_animation.py -p
 ```
 Si está todo correcto, se abrirá tu reproductor de videos predeterminado y verás tu hermosa creación. 
@@ -33,3 +33,5 @@ Te explico:
 - Luego hemos credo una clase llamada `FirstAnimation` que hereda de la clase `Scene`. Esto, que ocurre en la línea 3, ahora suena muy extraño y místico, pero ya llegaremos. 
 - Hemos sobreescrito el método `construct` de la clase `Scene`. Esta sobreescritura comienza en la línea 4 y termina en la línea 9. De nuevo, suena a magia pero ya llegaremos en el futuro. 
 - En la linea de comandos hemos llamado a `manim` y le hemos dicho que abra el archivo `my_first_animation.py` para hacer una animación. Además, con la flag `-p` le hemos dicho que queremos previsualizar el resultado. Ahora que dominas un poco más la linea de comandos no es tan extraño ¿verdad?
+
+> **Hint** **¡Fíjate!** Antes de la palabra clave `def` hemos dejado cuatro espacios en blanco. Debajo de esa línea hemos dejado 8 espacios en blanco. A esos espacios se les llama indentaciones y son fundamentales para escribir código `python`. Más adelante hablaremos del tema en mayor profundidad.

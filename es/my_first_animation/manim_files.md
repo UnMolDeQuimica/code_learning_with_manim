@@ -12,7 +12,7 @@ De forma un tanto más visual, la estructura queda algo así:
 ├── media
 │   ├── images
 │   │   └── test
-│   │       └── Test_ManimCE_v0.17.3.png
+│   │       └── FirstAnimation_ManimCE_v0.17.3.png
 │   └── videos
 │       └── my_first_animation
 │           └── 1080p60

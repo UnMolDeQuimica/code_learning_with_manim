@@ -42,7 +42,7 @@ print(my_var_3)
 Si ejecutas el código verás que el resultado es el mismo de antes:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python strings_tutorial.py
 Los proletarios no tienen nada que perder salvo sus cadenas, y tienen todo un mundo que ganar.
 ```
@@ -92,7 +92,7 @@ print(my_var.lower())
 El resultado es:
 
 {% filename %} command-line{% endfilename %}
-```command-line
+```bash
 python strings_tutorial.py
 Los proletarios no tienen nada que perder SALVO SUS CADENAS, y tienen todo un mundo que ganar.
 LOS PROLETARIOS NO TIENEN NADA QUE PERDER SALVO SUS CADENAS, Y TIENEN TODO UN MUNDO QUE GANAR.
@@ -121,7 +121,7 @@ class HelloWorld(Scene):
 Ahora, en la consola escribimos:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > manim  manim_hello_world.py -p
 ```
 

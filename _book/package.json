@@ -17,7 +17,9 @@
   },
   "dependencies": {
     "gitbook-plugin-code": "^0.1.0",
-    "gitbook-plugin-copy-code-button": "^0.0.2"
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "gitbook-plugin-terminull": "^1.1.0",
+    "honkit-plugin-prism": "^2.5.1"
   },
   "name": "code_learning_with_manim",
   "description": "Este documento pretende ser una breve introducción al lenguaje de programación `Python` y a la programación en general utilizando la librería ManimCE.",

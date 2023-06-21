@@ -7,7 +7,7 @@ Vamos a probar a hacer unas cuantas cosas. Comencemos por renombrar el archivo a
 ¿Qué tendríamos que hacer para correr el código en esta ocasión? La respuesta es usar el siguiente comando:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python test_funcion.py
 Esta es mi primera función
 ```
@@ -36,7 +36,7 @@ Hemos dicho que una función es como una lista de tareas. Lo siguiente va a ser 
 Ejecuta el programa como hemos hecho hasta ahora y deberías ver algo así:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python test_funcion.py
 Esta es mi primera función
 ¡Y ahora he añadido una nueva línea!
@@ -44,7 +44,7 @@ Esta es mi primera función
 
 
 ### Cambiando el nombre a la función
-Por último, vamos a probar a renombrar a la función sin cambiar la línea 5, línea en la que estamos llamando a la función. Por ejemplo, ponle por nombre `mi_segunda_funcion`. No hemos modificado la línea 4, por lo que el código queda algo así:
+Por último, vamos a probar a renombrar a la función sin cambiar la línea 5, línea en la que estamos llamando a la función. Por ejemplo, ponle por nombre `mi_segunda_funcion`. No hemos modificado la línea 5, por lo que el código queda algo así:
 
 
 {% filename %}python{% endfilename %}
@@ -61,7 +61,7 @@ mi_primera_funcion()
 Respuesta: Vamos a obtener un error que va a tener esta pinta:
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python test_funcion.py
 Traceback (most recent call last):
   File "/test_funcion.py", line 5, in <module>

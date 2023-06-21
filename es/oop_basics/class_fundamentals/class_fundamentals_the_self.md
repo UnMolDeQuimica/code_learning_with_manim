@@ -69,7 +69,7 @@ print(counter.current_value)
 ```
 
 {% filename %}command-line{% endfilename %}
-```command-line
+```bash
 > python counter.py
 Traceback (most recent call last):
   File "/home/miguel/umdq/git_practice/counter.py", line 13, in <module>
