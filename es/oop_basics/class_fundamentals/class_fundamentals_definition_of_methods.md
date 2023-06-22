@@ -5,16 +5,16 @@ En las clases podemos definir funciones a las que llamaremos métodos de la clas
 {% filename %}python{% endfilename %}
 ```python
 class Calculator:
-    def sum(a, b):
+    def addition(a, b):
         return a + b
 
-    def substract(a, b):
+    def substraction(a, b):
         return a - b
 
-    def multiply(a, b):
+    def multiplication(a, b):
         return a * b
 
-    def divide(a, b):
+    def division(a, b):
         return a / b
 ```
 

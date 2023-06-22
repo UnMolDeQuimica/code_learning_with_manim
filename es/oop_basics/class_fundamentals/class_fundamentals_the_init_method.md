@@ -9,10 +9,10 @@ Si queremos tener mesas con valores distintos, en lugar de dejar esos valores me
 {% filename %}python{% endfilename %}
 ```python
 class Table:
-    def __init__(self, legs, lenght, widht, height, material):
+    def __init__(self, legs, lenght, width, height, material):
         self.legs = legs
         self.lenght = lenght
-        self.widht = widht
+        self.width = width
         self.height = height
         self.material = material
 
@@ -23,7 +23,7 @@ print(wood_table.material)
 print(metal_table.material)
 ```
 
-Vamos a explicar que hemos hecho aquí. Primero hemos comenzado definiendo la clase `Table` igual que en ocasiones anteriores. Seguidamente, hemos definido el método `__init__` que va a tener como parámetros `self`, `legs`, `lenght`, `widht`, `height`, `material`. Dentro del método `__init__` hemos definido las variables internas `self.legs`, `self.lenght`, `self.widht`, `self.height`, `self.material` en base a los parámetros `legs`, `lenght`, `widht`, `height`, `material` que le entran a la función. Luego hemos definido las variables `wood_table` y `metal_table` como *instancias* de la clase `Table` idénticas en todos los aspectos exceptuando el `material` que las compone. 
+Vamos a explicar que hemos hecho aquí. Primero hemos comenzado definiendo la clase `Table` igual que en ocasiones anteriores. Seguidamente, hemos definido el método `__init__` que va a tener como parámetros `self`, `legs`, `lenght`, `width`, `height`, `material`. Dentro del método `__init__` hemos definido las variables internas `self.legs`, `self.lenght`, `self.width`, `self.height`, `self.material` en base a los parámetros `legs`, `lenght`, `width`, `height`, `material` que le entran a la función. Luego hemos definido las variables `wood_table` y `metal_table` como *instancias* de la clase `Table` idénticas en todos los aspectos exceptuando el `material` que las compone. 
 
 
 Aquí ha habido una palabra importante: *instancia*. Para que nos entendamos, podemos imaginar una clase `Human` que defina lo que es un ser humano con todas y cada una de sus posibles características. Tú, yo, y cualquier otra persona pertenecemos a esa clase `Human`, pero somos diferentes, únicos e irrepetibles. Todos somos *instancias* de esa clase `Human`, distintos en alguno o muchos de los parámetros que nos definen. 

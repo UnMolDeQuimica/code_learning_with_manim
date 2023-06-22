@@ -1,25 +1,28 @@
 {
   "devDependencies": {
-    "gitbook-plugin-advanced-emoji": "^0.2.2",
-    "gitbook-plugin-codeblock-label": "*",
-    "gitbook-plugin-collapsible-menu": "*",
-    "gitbook-plugin-github": "2.0.0",
-    "gitbook-plugin-heading-anchors": "^1.0.3",
-    "gitbook-plugin-language-picker": "*",
-    "gitbook-plugin-richquotes": "0.0.9",
-    "gitbook-plugin-sectionx-ex": "*",
-    "honkit": "^3.4.0",
-    "honkit-plugin-theme-osiris": "^1.0.3"
   },
   "scripts": {
     "build": "honkit build",
     "serve": "honkit serve"
   },
   "dependencies": {
+    "honkit": "^3.4.0",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-chollapse": "^1.0.1",
+    "gitbook-plugin-codeblock-label": "^1.0.1",
+    "gitbook-plugin-collapsible-menu": "*",
+    "gitbook-plugin-github": "2.0.0",
+    "gitbook-plugin-heading-anchors": "^1.0.3",
+    "gitbook-plugin-language-picker": "*",
+    "gitbook-plugin-richquotes": "0.0.9",
+    "gitbook-plugin-sectionx-ex": "*",
+    "@dogatana/honkit-plugin-back-to-top-button": "^1.0.0",
+    "gitbook-plugin-bottom-navigation": "^0.2.2",
     "gitbook-plugin-code": "^0.1.0",
     "gitbook-plugin-copy-code-button": "^0.0.2",
     "gitbook-plugin-terminull": "^1.1.0",
-    "honkit-plugin-prism": "^2.5.1"
+    "honkit-plugin-prism": "^2.5.1",
+    "honkit-plugin-search-plus": "^1.0.0"
   },
   "name": "code_learning_with_manim",
   "description": "Este documento pretende ser una breve introducción al lenguaje de programación `Python` y a la programación en general utilizando la librería ManimCE.",

@@ -38,4 +38,4 @@ _my_var = 6
 
 El objetivo de las variables es poder almacenar datos e información dentro del código que podremos usar más adelante. 
 
-**Caution** **¡Atención!** Siendo estrictos, en este capítulo vamos a revisar lo que se conoce como **tipos de datos**, no *variables*. Simplemente quedaba bien hacerlo todo de una sola vez en un mismo capitulo. Así, las cadenas (`str`), los números (`int` o `float`) y los booleanos (`bool`) solo son algunos de los tipos de de datos que podemos asignar a las variables. 
+> **Warning** **¡Atención!** Siendo estrictos, en este capítulo vamos a revisar lo que se conoce como **tipos de datos**, no *variables*. Simplemente quedaba bien hacerlo todo de una sola vez en un mismo capitulo. Las cadenas (`str`), los números (`int` o `float`) y los booleanos (`bool`) que revisaremos en este capítulo solo son algunos de los muchos tipos de de datos que podemos asignar a las variables. 

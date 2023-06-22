@@ -23,7 +23,7 @@ Borra tu archivo `mesa.py` y crea otro llamado `table.py`. Además, vamos a rees
 class Table:
     legs = 4
     lenght = 2
-    widht = 1
+    width = 1
     height = 1.2
     material = "Wood"
 ```

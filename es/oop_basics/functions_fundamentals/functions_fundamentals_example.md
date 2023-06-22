@@ -27,7 +27,7 @@ ejercicio_funciones(5, 10)
 En ambos casos, obtenemos por consola el resultado `750`.
 
 
-Vamos ahora con otro ejemplo. Crea una función que coja dos números y haga por un lado la suma y por otro lado la resta. Luego, multiplica los resultados y devuélve el resultado final por consola. ¿Te atreves a probar?
+Vamos ahora con otro ejemplo. Crea una función que coja dos números y haga por un lado la suma y por otro lado la resta. Luego, multiplica los resultados y devuelve el resultado final por consola. ¿Te atreves a probar?
 
 Aquí te dejo mi versión del ejemplo usando varias funciones:
 
@@ -50,7 +50,7 @@ def ejercicio_funciones(a,b):
 print(ejercicio_funciones(5, 10))
 ```
 
-En este caso he creado 4 funciones: `sumar`, `restar`, `multiplicar` y `ejercicio_funciones`. A esta última, le he dicho que use la función `multiplicar` y que meta como argumentos los resultados de las funciones `sumar` y `restar`. Por último, le he dicho que imprima el resultado si uso como argumentos 5 y 10. El resultado es -75-
+En este caso he creado 4 funciones: `sumar`, `restar`, `multiplicar` y `ejercicio_funciones`. A esta última, le he dicho que use la función `multiplicar` y que meta como argumentos los resultados de las funciones `sumar` y `restar`. Por último, le he dicho que imprima el resultado si uso como argumentos 5 y 10. El resultado es `75`
 
 Otra opción (y aquí estoy adelantando acontecimientos) es hacer uso de *variables* para guardar temporalmente los resultados y luego utilizarlos en otras funciones. El código quedaría algo así: 
 
