@@ -8,7 +8,8 @@ previous: "[[bases_oop/variables/Booleanos|Booleanos]]"
 next: "[[bases_oop/estructuras_de_datos/Listas|Listas]]"
 ---
 >[!quote]Cita
->Las estructuras de datos, y no los algoritmos, son fundamentales para la programación
+>Las estructuras de datos, y no los algoritmos, son fundamentales para la programación.
+>
 >*Rob Pike*
 
 Se dice que dijo el Buda en el texto Dhammapada que no hay mayor aliado que la mente. Una mente bien dirigida dará mejor y mayor ayuda que una madre o un padre. 

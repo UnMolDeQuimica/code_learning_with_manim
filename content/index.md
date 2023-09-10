@@ -20,7 +20,7 @@ Dado que el objetivo del curso es presentar una introducción, no haremos cosas 
 
   
 
-A modo de resumen (y de guía durante la confección del documento), seguiremos los siguientes pasos:
+A modo de resumen (y de guía durante la confección del documento), seguiremos los siguientes pasos. Paradójicamente, los tachados son los que ya están hechos. Los que están sin tachar siguen pendientes de terminar.
 
 - [X] [[primeros_pasos/Primeros pasos|Primeros pasos]]
 	- [x] [[primeros_pasos/Uso básico de la interfaz de comandos|Uso básico de la interfaz de comandos]]
@@ -40,43 +40,27 @@ A modo de resumen (y de guía durante la confección del documento), seguiremos 
 	- [x] [[primera_animacion/Archivos en manim|Archivos en manim]]
   
 
-- [ ] [[bases_oop/Bases de OOP y Python]]
+- [x] [[bases_oop/Bases de OOP y Python|Bases de OOP y Python]]
+	- [x] [[bases_oop/fundamentos_de_funciones/Fundamentos de Funciones|Fundamentos de Funciones]]
+		- [x] [[bases_oop/fundamentos_de_funciones/Definición de funciones|Definición de funciones]]
+		- [x] [[bases_oop/fundamentos_de_funciones/Devolver valores|Devolver valores]]
+		- [x] [[bases_oop/fundamentos_de_funciones/Parámetros y argumentos|Parámetros y argumentos]]
+	- [x] [[bases_oop/fundamentos_de_clases/Fundamentos de Clases|Fundamentos de Clases]]
+		- [x] [[bases_oop/fundamentos_de_clases/Definición de clases|Definición de clases]]
+		- [x] [[bases_oop/fundamentos_de_clases/Definición de métodos|Definición de métodos]]
+		- [x] [[bases_oop/fundamentos_de_clases/El método init|El método __init__]]
+		- [x] [[bases_oop/fundamentos_de_clases/El self|El self]]
+	- [x] [[bases_oop/variables/Variables|Variables]]
+		- [x] [[bases_oop/variables/Cadenas|Cadenas]]
+		- [x] [[bases_oop/variables/Números|Números]]
+		- [x] [[bases_oop/variables/Booleanos|Booleanos]]
+	- [x] [[bases_oop/estructuras_de_datos/Estructuras de datos|Estructuras de datos]]
+		- [x] [[bases_oop/estructuras_de_datos/Listas|Listas]]
+		- [x] [[bases_oop/estructuras_de_datos/Tuplas|Tuplas]]
+		- [x] [[bases_oop/estructuras_de_datos/Sets|Sets]]
+		- [x] [[bases_oop/estructuras_de_datos/Diccionarios|Diccionarios]]
 
-  - [X] Fundamentos de Funciones
 
-    - [X] Definición de funciones
-
-    - [X] Devolver valores
-
-    - [X] Parámetros y argumentos
-
-  
-
-  - [X] Fundamentos de Clases
-
-    - [X] Definición de clases
-
-    - [X] Definición de métodos
-
-    - [X] Método `__init__`
-
-    - [x] El `self`
-
-  - [ ] Variables
-
-    - [ ] Cadenas
-
-    - [ ] Números
-
-    - [ ] Booleanos
-
-    - [ ] Listas
-
-    - [ ] Tuplas
-
-    - [ ] Sets
-
-    - [ ] Diccionarios
 
   - [ ] Operaciones
 
