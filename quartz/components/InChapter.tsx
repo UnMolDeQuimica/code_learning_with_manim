@@ -22,7 +22,7 @@ function InChapter({ fileData }: QuartzComponentProps) {
         <ul>
           {childrenList.length > 0 ? (
             childrenList.map((f: any) => (
-              <li>
+              <li style={{minWidth: "15px", whiteSpace: "nowrap"}}>
                 <a href={resolveRelative(fileData.slug!, slugifyFilePath(f[1]))}>
                   {f[2]}
                 </a>

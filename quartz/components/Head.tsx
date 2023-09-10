@@ -4,8 +4,8 @@ import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
 export default (() => {
   function Head({ cfg, fileData, externalResources }: QuartzComponentProps) {
-    const title = fileData.frontmatter?.title ?? "Untitled"
-    const description = fileData.description?.trim() ?? "No description provided"
+    const title = fileData.frontmatter?.title ?? "Sin título"
+    const description = fileData.description?.trim() ?? "Sin descripción."
     const { css, js } = externalResources
     const baseDir = pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.jpg")

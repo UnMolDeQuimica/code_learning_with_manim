@@ -11,7 +11,7 @@ function ParentLink({ fileData }: QuartzComponentProps) {
     const targetName = parentFileParsed[2]
 
     return (
-      <a href={targetPath}>{targetName}</a>
+      <a href={targetPath} style={{minWidth: "5%", whiteSpace: "nowrap"}}>{targetName}</a>
     )
   } else {
     return null

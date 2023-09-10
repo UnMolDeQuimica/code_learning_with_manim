@@ -4,7 +4,7 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.Darkmode(),Component.PreviousFile(), Component.NextFile()],
   footer: Component.Footer({
     links: {
       "GitHub": ["https://github.com/UnMolDeQuimica", "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"],
@@ -16,20 +16,17 @@ export const sharedPageComponents: SharedLayout = {
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList()],
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta(), Component.TagList(),],
   left: [
-    Component.PreviousFile(),
-    Component.ParentLink(),
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.InChapter(),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
-    Component.NextFile(),
-    Component.Darkmode(),
     Component.Graph(),
+    Component.ParentLink(),
+    Component.InChapter(),
     Component.Backlinks()
 ],
 }
